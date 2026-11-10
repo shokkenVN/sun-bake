@@ -7,7 +7,7 @@ A tool to convert *those* models into editable PSD files, and back into models.
 Download and install Python 3.9 or higher.
 
 1. Download this entire repository as a ZIP file.
-2. Go to this site and download the official Cubism SDK for Native. You can use a temp email.
+2. [Go to this site](https://www.live2d.com/en/sdk/download/native/) and download the official Cubism SDK for Native. You can use a temp email.
 3. Extract `Live2DCubismCore.dll` from `Core\dll\windows\x86_64\`, placing it in the same directory as main.py.
 4. Run `run.bat`. This will tell you if you are missing anything.
 
