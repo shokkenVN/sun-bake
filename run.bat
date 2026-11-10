@@ -33,7 +33,7 @@ echo.
 
 :: 3. Check dependencies
 echo Checking dependencies...
-%PYTHON_EXE% -c "import numpy, cv2, PIL, psd_tools, pytoshop, packbits, PySide6, qdarktheme" >nul 2>&1
+%PYTHON_EXE% -c "import numpy, cv2, PIL, psd_tools, pytoshop, six, packbits, PySide6, qdarktheme" >nul 2>&1
 if %ERRORLEVEL% neq 0 goto :install_deps
 
 echo [OK] All dependencies are already installed.
